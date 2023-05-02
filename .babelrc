@@ -1,0 +1,12 @@
+//tells 'when ever this project runs babel go ahead and run these two presets'.
+//that we usually do in the cmd 
+//babel src/app.js --out-file=public/scripts/app.js --presets=env,react 
+{
+    "presets":[
+        "env",
+        "react"
+    ],
+    "plugins": [
+        "transform-class-properties"
+    ]
+}
